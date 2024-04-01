@@ -21,10 +21,10 @@ if [ ! -f "$tmbackup" ]; then
 fi
 
 # And the logs directory
-log_dir="$script_dir/backups/_logs"
+log_dir="$script_dir/_backups/_logs"
 mkdir -p "$log_dir"
 # And the backup directory
-backup_dir="$script_dir/backups/$backup_name"
+backup_dir="$script_dir/_backups/$backup_name"
 mkdir -p "$backup_dir"
 touch "$backup_dir/backup.marker"
 
