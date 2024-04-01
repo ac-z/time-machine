@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Default options
-backup_name="$USERNAME@$HOSTNAME"
+backup_name="$USER@$HOSTNAME"
 backup_target="$HOME"
 # Detect if in Android by checking $ANDROID_ROOT
 if [ -n "$ANDROID_ROOT" ]; then
